@@ -1,0 +1,29 @@
+.venv/
+.venv311/
+__pycache__/
+*.py[cod]
+.env
+
+# Downloaded video and generated data
+data/annotations/**
+!data/annotations/**/
+!data/annotations/**/.gitkeep
+data/raw/**
+!data/raw/**/
+!data/raw/**/.gitkeep
+data/interim/**
+!data/interim/**/
+!data/interim/**/.gitkeep
+data/processed/**
+!data/processed/**/
+!data/processed/**/.gitkeep
+
+# Generated experiment outputs
+outputs/checkpoints/*
+outputs/logs/*
+outputs/figures/*
+outputs/results/*
+!outputs/checkpoints/.gitkeep
+!outputs/logs/.gitkeep
+!outputs/figures/.gitkeep
+!outputs/results/.gitkeep

@@ -1,0 +1,4 @@
+[console_scripts]
+check-wlasl-landmarks = sign_language.data.check_landmarks:main
+download-wlasl-hf = sign_language.data.download:main
+extract-wlasl-landmarks = sign_language.data.landmarks:main
